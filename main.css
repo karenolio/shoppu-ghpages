@@ -1,0 +1,86 @@
+html {
+    height: 100%;
+}
+
+/** { 
+  outline: 1px solid black;
+}
+*/
+.shoppu {
+  font-family: GEORGIA;
+  font-style: italic;
+  font-weight: bold;
+  color: #fbd386;
+  padding-left: 40px;
+  padding-top: 40px;
+  font-size: 40px;
+}
+
+.description{
+  font-family: georgia;
+  font-style: italic;
+  color: gray;
+  padding-left: 50px;
+  padding-top: 40px;
+  font-size: 18px;
+}
+
+/*body {
+	background-color: #10d897;
+}*/
+
+#form {
+  margin-top: 40px;
+}
+
+
+#newItem { /*this is the "enter item here" bar*/
+  height: 45px;
+  width: 360px;
+  font-family: georgia;
+  font-size: 1.5em;
+  font-style: italic;
+  text-indent: 12px;
+  border: 1px solid;
+  border-radius: 2px;
+  margin-left: 50px;
+  margin-top: 10px;
+  border-color: #43aec2;
+}
+
+#addItem { /*this is the "+" box*/
+  height: 49px;
+  background-color: #43aec2;
+  color:white;
+  border: 0;
+  border-radius: 2px;
+  margin-left: -6px;
+  margin-top: 90px; /*change this to move form's bar up and down*/
+  margin-bottom: 1px;
+  padding: 3px 20px 3px 20px;
+  font-size: 25px;
+  font-family: arial;
+  font-style: bold;
+}
+
+
+body { /*this is the yellow gradient background*/
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background: #f8c83f;
+  background: -webkit-linear-gradient(#f8c83f, #f1c038);
+  background:    -moz-linear-gradient(#f8c83f, #f1c038);
+  background:         linear-gradient(#f8c83f, #f1c038);
+}
+
+.main { /* this is the horizontal block of white */
+  background-color: white;
+  margin-top: 100px;
+  min-width: 1200px;
+  height: 400px;
+}
+
+
+
+
