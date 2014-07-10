@@ -12,18 +12,30 @@ html {
   font-weight: bold;
   color: #fbd386;
   padding-left: 40px;
-  padding-top: 40px;
+  padding-top: 20px;
   font-size: 40px;
 }
 
 .description{
   font-family: georgia;
   font-style: italic;
-  color: gray;
-  padding-left: 50px;
-  padding-top: 40px;
-  padding-bottom: 20px;
+  color: #fbd386;
+  opacity: 100%;
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   font-size: 18px;
+}
+
+.explanation { /*text under the form*/
+  font-family: georgia;
+  font-style: italic;
+  color: #fbd386;
+  opacity: 100%;
+  padding-left: 60px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  font-size: 16px;
 }
 
 /*body {
@@ -37,7 +49,7 @@ html {
 
 #newItem { /*this is the "enter item here" bar*/
   height: 45px;
-  width: 360px;
+  width: 700px;
   font-family: georgia;
   font-size: 1.5em;
   font-style: italic;
@@ -84,17 +96,17 @@ body { /*this is the yellow gradient background*/
 
 .main { /* this is the horizontal block of white */
   background-color: white;
-  margin-top: 100px;
+  margin-top: 70px;
   min-width: 1200px;
-  min-height: 80%;
+  min-height: 50%;
 }
 
 /* Bottom Content */
 #bottom {
-	width: 35%;
-	margin-right: auto;
-	margin-left: auto;
-	text-align: center;
+	width: 50%; 
+	/*auto: X is all the way to the right*/
+	/*35%: 35% from left*/
+	text-align: left;
 	font-family: arial;
 	color: grey;
 	font-size: 20px;
@@ -102,8 +114,10 @@ body { /*this is the yellow gradient background*/
 
 #itemList {
 	text-align: left;
-	padding-left: 120px;
+	padding-left: 50px;
 	padding-bottom: 70px;
+	padding-top: 20px;
+	display: block;
 }
 
 .list {
