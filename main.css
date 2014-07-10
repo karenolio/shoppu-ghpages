@@ -6,7 +6,7 @@ html {
   outline: 1px solid black;
 }
 */
-.shoppu {
+.somedaymaybe {
   font-family: GEORGIA;
   font-style: italic;
   font-weight: bold;
@@ -22,6 +22,7 @@ html {
   color: gray;
   padding-left: 50px;
   padding-top: 40px;
+  padding-bottom: 20px;
   font-size: 18px;
 }
 
@@ -45,12 +46,16 @@ html {
   border-radius: 2px;
   margin-left: 50px;
   margin-top: 10px;
-  border-color: #43aec2;
+  border-color: #bdc3c7;
+}
+
+#newItem:hover {
+	border-color: #fbd386;
 }
 
 #addItem { /*this is the "+" box*/
   height: 49px;
-  background-color: #43aec2;
+  background-color: ##bdc3c7;
   color:white;
   border: 0;
   border-radius: 2px;
@@ -63,6 +68,9 @@ html {
   font-style: bold;
 }
 
+#addItem:hover {
+	background:#fbd386;
+}
 
 body { /*this is the yellow gradient background*/
   margin: 0;
@@ -78,9 +86,89 @@ body { /*this is the yellow gradient background*/
   background-color: white;
   margin-top: 100px;
   min-width: 1200px;
-  height: 400px;
+  min-height: 80%;
 }
 
+/* Bottom Content */
+#bottom {
+	width: 35%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	font-family: arial;
+	color: grey;
+	font-size: 20px;
+}
 
+#itemList {
+	text-align: left;
+	padding-left: 120px;
+	padding-bottom: 70px;
+}
 
+.list {
+	display: inline-block;
+}
+
+.box {
+	padding: 0 10px;
+	display: inline-block;
+}
+
+li {
+	font-family: georgia; 
+	font-style: italic;
+	font-size: 1em;
+	display: block;
+	padding: 3px 0; 
+}
+
+.highlight {
+	color: #2ecc71; /*greenish color*/
+}
+
+.checkbox {
+	height: 30px; 
+	background-color: #bdc3c7;
+	border: 0;
+	border-radius: 2px; 
+	margin-right: 20px; 
+	margin-top: 10px;
+	margin-bottom: 10px; 
+	padding: 5px 10px 5px 10px;
+	font-size: 1em;
+	font-family: arial;
+	color: white;
+}
+
+.checkbox:hover {
+	background-color: #2ecc71;
+	color: #ffffff;
+}
+
+.delete { 
+	height: 30px;
+	background-color: #bdc3c7;
+	border: 0;
+	border-radius: 2px; 
+	margin-right: 20px; 
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 5px 10px 5px 10px;
+	font-size: 1em;
+	font-family: arial;
+	float: right;
+	color: white;
+}
+
+.delete:hover {
+	background-color: #e74c3c;
+	color: #fff;
+}
+
+.delete:focus {
+	outline: none;
+}
+
+	
 
